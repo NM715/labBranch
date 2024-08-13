@@ -39,10 +39,10 @@ class Laboratory:
 
     @staticmethod
     def displayLabsList(laboratories_dict):
-        print(f"{'Lab':<20}{'Cost':>10}")  
+        print(f"{'Lab':<20}{'Cost':<10}\n")  
         for lab_name, cost in laboratories_dict.items():
-            print(f"{lab_name:<20}{cost:>10}") 
-        print("\nBack to the previous Menu")
+            print(f"{lab_name:<20}{cost:<10}\n")
+        print("Back to the previous Menu")
 
     @staticmethod
     def laboratoriesMenu():
